@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class eskenardortgen {
+
+	public static void main (String[] args) {
+		
+		Scanner ali = new Scanner (System.in);
+		int i,j,a;
+		
+		
+		System.out.print("Bir sayı giriniz: ");
+		a = ali.nextInt();
+		
+	
+		for (i=1; i<=a; i++)
+		{ 
+			for(j=1;j<=(a-i);j++)
+			{
+				System.out.print(""); 
+			}
+			for(j=1;j<=(2*a-1);j++)
+			{ 
+				System.out.print("*");
+			}
+			System.out.println();
+			
+		}
+		
+	}
+}
