@@ -1,0 +1,66 @@
+import java.util.Scanner;
+public class Mantikİslemleri {
+
+	public static void main(String[] args) {
+	
+		Scanner ali = new Scanner(System.in);
+		
+		int a1,a2;
+		
+		System.out.println("Birinci sayıyı giriniz: ");
+        a1 = ali.nextInt();
+        System.out.println("ikinci sayıyı giriniz: ");
+        a2 = ali.nextInt();
+        
+        if(a1==a2)
+        {
+        	System.out.println("Sayılar Eşittir.");
+        }
+        else
+        {
+        	System.out.println("Sayılar Eşit değildir.");
+        }
+        if(a1<a2)
+        {
+        	System.out.println("Birinci Sayı küçüktür.");
+        }
+        else 
+        {
+        	System.out.println("Birinci sayı küçük değildir.");
+        }
+        if(a2<a1)
+        {
+        	System.out.println("İkinci Sayı küçüktür.");
+        }
+        else 
+        {
+        	System.out.println("İkinci sayı küçük değildir.");
+        }
+        if(a1<=a2)
+        {
+        	System.out.println("Birinci Sayı küçük eşittir.");
+        }
+        else 
+        {
+        	System.out.println("Birinci sayı küçük eşit değildir.");
+        }
+        if(a2<=a1)
+        {
+        	System.out.println("İkinci Sayı küçük eşittir.");
+        }
+        else 
+        {
+        	System.out.println("İkinci sayı küçük eşit değildir.");
+        }
+        if(a1!=a2)
+        {
+        	System.out.println("Sayılar farklıdır.");
+        }
+        else 
+        {
+        	System.out.println("Sayılar farklı değildir.");
+        }
+        	
+	}
+
+}
