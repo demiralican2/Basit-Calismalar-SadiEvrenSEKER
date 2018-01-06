@@ -1,0 +1,30 @@
+import java.util.Arrays;
+import java.util.Scanner;
+public class BuyukKucuk {
+	
+	public static Scanner ali;
+	public static void main(String[] args) {
+		
+		 ali = new Scanner(System.in);
+		
+		int a,b,c,d,e;
+		
+		System.out.println("Birinci sayıyı giriniz: ");
+		a = ali.nextInt();
+		System.out.println("Birinci sayıyı giriniz: ");
+		b = ali.nextInt();
+		System.out.println("Birinci sayıyı giriniz: ");
+		c = ali.nextInt();
+		System.out.println("Birinci sayıyı giriniz: ");
+		d = ali.nextInt();
+		System.out.println("Birinci sayıyı giriniz: ");
+		e= ali.nextInt();
+
+		
+		int [] dizi={a,b,c,d,e};
+		Arrays.sort(dizi); 
+		for (int i = 0; i < dizi.length; i++)
+		System.out.println(dizi[i]);
+	}
+
+}
