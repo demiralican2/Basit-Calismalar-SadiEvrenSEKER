@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class YasSorgulama {
+
+	public static void main(String[] args) {
+		
+		Scanner ali = new Scanner (System.in);
+		
+		int a,b;
+		
+		System.out.println("Bugünün tarihini giriniz: ");
+		a = ali.nextInt();
+		System.out.println("Doğum Tarihinizi giriniz: ");
+		System.out.println("(YALNIZCA YIL)");
+		b = ali.nextInt();
+		
+		System.out.println("Yaşınız: "+ (a-b));
+		
+		
+		
+		
+		
+	}
+}
