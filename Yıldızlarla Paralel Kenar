@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class YıldızlarlaParalelKenar {
+
+	public static void main(String[] args) {
+		Scanner ali = new Scanner (System.in);
+		int a,b,c;
+		
+		System.out.println("Bir sayı giriniz: ");
+		a = ali.nextInt();
+		
+		for(b=1; b<=a; b++) { //satır sayısı
+			
+			for(c=1; c<=(a-b); c++) {
+				System.out.print(" ");
+			}
+			for(c=1; c<=(2*a-1); c++)
+			{
+				System.out.print("*"); // yıldız sayısı
+			}
+			System.out.println();	
+		}
+	}
+
+}
