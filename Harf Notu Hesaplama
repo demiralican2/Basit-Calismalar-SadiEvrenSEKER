@@ -1,0 +1,50 @@
+import java.util.Scanner;
+public class Deneme6 {
+
+	public static void main(String[] args) {
+		
+		Scanner ali = new Scanner(System.in);
+		
+		int a;
+		
+		System.out.println("Bir sayı giriniz: ");
+		a =ali.nextInt();
+		
+		if(a<70)
+		{
+			System.out.println("Harf Notunuz: F'tir");
+			System.out.println(" ");
+			System.out.println("Yeni bir sayı giriniz: ");
+			a =ali.nextInt();
+		}
+		if(a>=70 && a<80)
+		{
+			System.out.println("Harf Notunuz: C'dir.");
+			System.out.println(" ");
+			System.out.println("Yeni bir sayı giriniz: ");
+			a =ali.nextInt();
+		}
+		if(a>=80 && a<90)
+		{
+			System.out.println("Harf Notunuz: B'dir.");
+			System.out.println(" ");
+			System.out.println("Yeni bir sayı giriniz: ");
+			a =ali.nextInt();
+		}
+		if(a>=90 && a<=100)
+		{
+			System.out.println("Harf Notunuz: A'dır.");
+			System.out.println(" ");
+			System.out.println("Yeni bir sayı giriniz: ");
+			a =ali.nextInt();
+			}
+		if(a>100)
+		{
+			System.out.println("Hatalı Giriş.");
+			System.out.println(" ");
+			System.out.println("Yeni bir sayı giriniz: ");
+			a =ali.nextInt();
+			}
+	}
+
+}
