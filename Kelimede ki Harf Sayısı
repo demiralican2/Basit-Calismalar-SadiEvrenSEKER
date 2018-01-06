@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class KelimeSayisi {
+
+	public static void main(String[] args) {
+		
+		Scanner gir =new Scanner (System.in);
+		String cumle ; int karakter;     
+		     
+		System.out.println("cumle yaz");     
+		cumle =gir.nextLine();     
+		
+		karakter =cumle.length(); 
+		System.out.println("karakter sayısı : "+karakter); 
+		
+	}
+
+}
