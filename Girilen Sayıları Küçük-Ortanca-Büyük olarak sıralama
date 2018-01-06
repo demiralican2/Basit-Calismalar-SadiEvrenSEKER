@@ -1,0 +1,55 @@
+import java.util.Scanner;
+public class Siralama {
+
+	public static void main(String[] args) {
+		
+		Scanner ali = new Scanner(System.in);
+		
+		int a1,b1,c1;
+		
+		System.out.println("Birinci sayıyı giriniz: ");
+		a1 =ali.nextInt();
+		System.out.println("İkinci sayıyı giriniz: ");
+		b1 =ali.nextInt();
+		System.out.println("Üçüncü sayıyı giriniz: ");
+		c1 =ali.nextInt();
+		
+		if(a1<b1 && a1<c1)
+		{
+			System.out.println(a1 +" sayısı en küçüktür.");
+		}
+		else if(b1<a1 && b1<c1)
+		{
+			System.out.println(b1+" sayısı en küçüktür");
+		}
+		else if(c1<a1 && c1<b1)
+		{
+			System.out.println(c1+" sayısı en küçüktür.");
+		}
+		if(a1<b1 && a1>c1 || a1>b1 && a1<c1)
+		{
+			System.out.println(a1 +" sayısı ortanca sayıdır.");
+		}
+		else if(b1<a1 && b1>c1 || b1>a1 && b1<c1)
+		{
+			System.out.println(b1 +" sayısı ortanca sayıdır.");
+		}
+		else if(c1<b1 && c1>a1 || c1>b1 && c1<a1)
+		{
+			System.out.println(c1 +" sayısı ortanca sayıdır.");
+		}
+		if(a1>b1 && a1>c1)
+		{
+			System.out.println(a1 +" sayısı en büyüktür.");
+		}
+		else if(b1>a1 && b1>c1)
+		{
+			System.out.println(b1+" sayısı en büyüktür");
+		}
+		else if(c1>a1 && c1>b1)
+		{
+			System.out.println(c1+" sayısı en büyüktür.");
+		}
+	}
+
+}
