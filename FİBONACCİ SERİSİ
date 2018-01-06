@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class FibonacciSerisi {
+	
+	public static Scanner ali;
+	public static void main(String[] args) {
+		
+		ali = new Scanner(System.in);
+		
+		int k;
+		int a=1;
+		int b=1;
+		int c;
+		int i;
+    
+		System.out.println("Bir Sayı Giriniz: ");
+		k = ali.nextInt();
+		
+		System.out.println(a);
+		System.out.println(b);
+		
+		
+		for(i=0; i<k-2; i++)
+		{
+		c=a+b;
+		a=b;
+		b=c;
+		System.out.println(c);
+		}
+		
+		
+		
+		
+	}
+
+}
