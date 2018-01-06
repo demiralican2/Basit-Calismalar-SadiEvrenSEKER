@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class SayiCalismasi {
+
+	private static Scanner sayı;
+
+	public static void main(String[] args) {
+		
+		sayı = new Scanner (System.in);
+		
+		int sayi1;
+		int sayi2;
+		
+		
+		System.out.println("Birinci sayıyı giriniz: ");
+		sayi1 = sayı.nextInt();
+		System.out.println("İkinci  sayıyı giriniz: ");
+		sayi2 = sayı.nextInt();
+		
+		System.out.println("Sayıların toplamı: " + (sayi1+sayi2));
+		System.out.println("Sayıların Farkı: " + (sayi1-sayi2));
+		System.out.println("Sayıların Bölümü: " + (sayi1+sayi2)/2);
+		System.out.println("Sayıların Çarpımı: " + (sayi1*sayi2));
+		System.out.println("Sayıların Bölümünden Kalanı: " + (sayi1%sayi2));
+	}
+
+}
