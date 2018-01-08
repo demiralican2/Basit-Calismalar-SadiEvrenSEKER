@@ -1,0 +1,148 @@
+package AlgoritmaFinal;
+import java.util.Scanner;
+public class VizeFinall {
+public static Scanner ali;
+	public static void main(String[] args) {
+		
+		ali = new Scanner(System.in);
+		
+		int a,vize,odev,finall;
+		
+		System.out.println("Matematik Not Hesaplaması için 1'e basınız.");
+		System.out.println("Algoritma Not Hesaplaması için 2'e basınız.");
+		System.out.println("İş Sağlığı ve Güvenliği Not Hesaplaması için 3'e basınız.");
+		System.out.println("Temel Elektronik Not Hesaplaması için 4'e basınız.");
+		System.out.println("Ofis Yazılımları Not Hesaplaması için 5'e basınız.");
+		System.out.println("Araştırma ve İstatistik Not Hesaplaması için 6'e basınız.");
+		System.out.println("Türk Dili ve Edebiyatı Not Hesaplaması için 7'e basınız.");
+		a = ali.nextInt();
+		
+		
+		if(a==1)
+		{
+			System.out.println("Matematik Vize Notunuzu Giriniz: ");
+			vize = ali.nextInt();
+			System.out.println("Matematik Final Notunuzu Giriniz: ");
+			finall = ali.nextInt();
+			double ort = vize*0.2+finall*0.5;
+			System.out.println("Matematik Ortalamanız: " + ort + "\n");
+			System.out.println("Matematik Not Hesaplaması için 1'e basınız.");
+			System.out.println("Algoritma Not Hesaplaması için 2'e basınız.");
+			System.out.println("İş Sağlığı ve Güvenliği Not Hesaplaması için 3'e basınız.");
+			System.out.println("Temel Elektronik Not Hesaplaması için 4'e basınız.");
+			System.out.println("Ofis Yazılımları Not Hesaplaması için 5'e basınız.");
+			System.out.println("Araştırma ve İstatistik Not Hesaplaması için 6'e basınız.");
+			System.out.println("Türk Dili ve Edebiyatı Not Hesaplaması için 7'e basınız.");
+			a = ali.nextInt();
+		}
+		if(a==2)
+		{
+			System.out.println("Algoritma Vize Notunuzu Giriniz: ");
+			vize = ali.nextInt();
+			System.out.println("Algoritma Ödev Notunuzu Giriniz: ");
+			odev = ali.nextInt();
+			System.out.println("Algoritma Final Notunuzu Giriniz: ");
+			finall = ali.nextInt();
+			double ort1= vize*0.3+odev*0.3+finall*0.5;
+			System.out.println("Algoritma Ortalamanız: " + ort1+ "\n");
+			System.out.println("Matematik Not Hesaplaması için 1'e basınız.");
+			System.out.println("Algoritma Not Hesaplaması için 2'e basınız.");
+			System.out.println("İş Sağlığı ve Güvenliği Not Hesaplaması için 3'e basınız.");
+			System.out.println("Temel Elektronik Not Hesaplaması için 4'e basınız.");
+			System.out.println("Ofis Yazılımları Not Hesaplaması için 5'e basınız.");
+			System.out.println("Araştırma ve İstatistik Not Hesaplaması için 6'e basınız.");
+			System.out.println("Türk Dili ve Edebiyatı Not Hesaplaması için 7'e basınız.");
+			a = ali.nextInt();
+		}
+		if(a==3)
+		{
+			System.out.println("İş Sağlığı ve Güvenliği Vize Notunuzu Giriniz: ");
+			vize = ali.nextInt();
+			System.out.println("İş Sağlığı ve Güvenliği Final Notunuzu Giriniz: ");
+			finall = ali.nextInt();
+			double ort2= vize*0.4+finall*0.6;
+			System.out.println("İş Sağlığı ve Güvenliği Ortalamanız: " + ort2+ "\n");
+			System.out.println("Matematik Not Hesaplaması için 1'e basınız.");
+			System.out.println("Algoritma Not Hesaplaması için 2'e basınız.");
+			System.out.println("İş Sağlığı ve Güvenliği Not Hesaplaması için 3'e basınız.");
+			System.out.println("Temel Elektronik Not Hesaplaması için 4'e basınız.");
+			System.out.println("Ofis Yazılımları Not Hesaplaması için 5'e basınız.");
+			System.out.println("Araştırma ve İstatistik Not Hesaplaması için 6'e basınız.");
+			System.out.println("Türk Dili ve Edebiyatı Not Hesaplaması için 7'e basınız.");
+			a = ali.nextInt();
+		}
+		if(a==4)
+		{
+			System.out.println("Temel Elektronik Vize Notunuzu Giriniz: ");
+			vize = ali.nextInt();
+			System.out.println("Temel Elektronik Final Notunuzu Giriniz: ");
+			finall = ali.nextInt();
+			double ort3= vize*0.4+finall*0.6;
+			System.out.println("Temel Elektronik: " + ort3+ "\n");
+			System.out.println("Matematik Not Hesaplaması için 1'e basınız.");
+			System.out.println("Algoritma Not Hesaplaması için 2'e basınız.");
+			System.out.println("İş Sağlığı ve Güvenliği Not Hesaplaması için 3'e basınız.");
+			System.out.println("Temel Elektronik Not Hesaplaması için 4'e basınız.");
+			System.out.println("Ofis Yazılımları Not Hesaplaması için 5'e basınız.");
+			System.out.println("Araştırma ve İstatistik Not Hesaplaması için 6'e basınız.");
+			System.out.println("Türk Dili ve Edebiyatı Not Hesaplaması için 7'e basınız.");
+			a = ali.nextInt();
+		}
+		if(a==5)
+		{
+			System.out.println("Ofis Yazılımları Vize Notunuzu Giriniz: ");
+			vize = ali.nextInt();
+			System.out.println("Ofis Yazılımları Final Notunuzu Giriniz: ");
+			finall = ali.nextInt();
+			double ort4= vize*0.4+finall*0.6;
+			System.out.println("Ofis Yazılımları Ortalamanız: " + ort4+ "\n");
+			System.out.println("Matematik Not Hesaplaması için 1'e basınız.");
+			System.out.println("Algoritma Not Hesaplaması için 2'e basınız.");
+			System.out.println("İş Sağlığı ve Güvenliği Not Hesaplaması için 3'e basınız.");
+			System.out.println("Temel Elektronik Not Hesaplaması için 4'e basınız.");
+			System.out.println("Ofis Yazılımları Not Hesaplaması için 5'e basınız.");
+			System.out.println("Araştırma ve İstatistik Not Hesaplaması için 6'e basınız.");
+			System.out.println("Türk Dili ve Edebiyatı Not Hesaplaması için 7'e basınız.");
+			a = ali.nextInt();
+		}
+		if(a==6)
+		{
+			System.out.println("Araştırma ve İstatistik Vize Notunuzu Giriniz: ");
+			vize = ali.nextInt();
+			System.out.println("Araştırma ve İstatistik Ödev Notunuzu Giriniz: ");
+			odev = ali.nextInt();
+			System.out.println("Araştırma ve İstatistik Final Notunuzu Giriniz: ");
+			finall = ali.nextInt();
+			double ort5= vize*0.3+odev*0.2+finall*0.5;
+			System.out.println("Araştırma ve İstatistik Ortalamanız: " + ort5+ "\n");
+			System.out.println("Matematik Not Hesaplaması için 1'e basınız.");
+			System.out.println("Algoritma Not Hesaplaması için 2'e basınız.");
+			System.out.println("İş Sağlığı ve Güvenliği Not Hesaplaması için 3'e basınız.");
+			System.out.println("Temel Elektronik Not Hesaplaması için 4'e basınız.");
+			System.out.println("Ofis Yazılımları Not Hesaplaması için 5'e basınız.");
+			System.out.println("Araştırma ve İstatistik Not Hesaplaması için 6'e basınız.");
+			System.out.println("Türk Dili ve Edebiyatı Not Hesaplaması için 7'e basınız.");
+			a = ali.nextInt();
+		}
+		if(a==7)
+		{
+			System.out.println("Türk Dili ve Edebiyatı Vize Notunuzu Giriniz: ");
+			vize = ali.nextInt();
+			System.out.println("Türk Dili ve Edebiyatı Final Notunuzu Giriniz: ");
+			finall = ali.nextInt();
+			double ort6= vize*0.4+finall*0.6;
+			System.out.println("Türk Dili ve Edebiyatı Ortalamanız: " + ort6+ "\n");
+			System.out.println("Matematik Not Hesaplaması için 1'e basınız.");
+			System.out.println("Algoritma Not Hesaplaması için 2'e basınız.");
+			System.out.println("İş Sağlığı ve Güvenliği Not Hesaplaması için 3'e basınız.");
+			System.out.println("Temel Elektronik Not Hesaplaması için 4'e basınız.");
+			System.out.println("Ofis Yazılımları Not Hesaplaması için 5'e basınız.");
+			System.out.println("Araştırma ve İstatistik Not Hesaplaması için 6'e basınız.");
+			System.out.println("Türk Dili ve Edebiyatı Not Hesaplaması için 7'e basınız.");
+			a = ali.nextInt();
+		}
+	
+		
+	}
+
+}
