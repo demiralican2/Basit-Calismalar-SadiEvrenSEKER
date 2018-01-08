@@ -18,6 +18,8 @@ public static Scanner ali;
 		a = ali.nextInt();
 		
 		
+		for(int i=1; i<=a+999; i++)
+		{
 		if(a==1)
 		{
 			System.out.println("Matematik Vize Notunuzu Giriniz: ");
@@ -34,6 +36,7 @@ public static Scanner ali;
 			System.out.println("Araştırma ve İstatistik Not Hesaplaması için 6'e basınız.");
 			System.out.println("Türk Dili ve Edebiyatı Not Hesaplaması için 7'e basınız.");
 			a = ali.nextInt();
+			
 		}
 		if(a==2)
 		{
@@ -141,7 +144,7 @@ public static Scanner ali;
 			System.out.println("Türk Dili ve Edebiyatı Not Hesaplaması için 7'e basınız.");
 			a = ali.nextInt();
 		}
-	
+		}
 		
 	}
 
