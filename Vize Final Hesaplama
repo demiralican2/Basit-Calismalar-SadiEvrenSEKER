@@ -37,6 +37,7 @@ public static Scanner ali;
 			System.out.println("Türk Dili ve Edebiyatı Not Hesaplaması için 7'e basınız.");
 			a = ali.nextInt();
 			
+			
 		}
 		if(a==2)
 		{
@@ -81,7 +82,7 @@ public static Scanner ali;
 			System.out.println("Temel Elektronik Final Notunuzu Giriniz: ");
 			finall = ali.nextInt();
 			double ort3= vize*0.4+finall*0.6;
-			System.out.println("Temel Elektronik: " + ort3+ "\n");
+			System.out.println("Temel Elektronik Ortalamanız: " + ort3+ "\n");
 			System.out.println("Matematik Not Hesaplaması için 1'e basınız.");
 			System.out.println("Algoritma Not Hesaplaması için 2'e basınız.");
 			System.out.println("İş Sağlığı ve Güvenliği Not Hesaplaması için 3'e basınız.");
@@ -135,6 +136,18 @@ public static Scanner ali;
 			finall = ali.nextInt();
 			double ort6= vize*0.4+finall*0.6;
 			System.out.println("Türk Dili ve Edebiyatı Ortalamanız: " + ort6+ "\n");
+			System.out.println("Matematik Not Hesaplaması için 1'e basınız.");
+			System.out.println("Algoritma Not Hesaplaması için 2'e basınız.");
+			System.out.println("İş Sağlığı ve Güvenliği Not Hesaplaması için 3'e basınız.");
+			System.out.println("Temel Elektronik Not Hesaplaması için 4'e basınız.");
+			System.out.println("Ofis Yazılımları Not Hesaplaması için 5'e basınız.");
+			System.out.println("Araştırma ve İstatistik Not Hesaplaması için 6'e basınız.");
+			System.out.println("Türk Dili ve Edebiyatı Not Hesaplaması için 7'e basınız.");
+			a = ali.nextInt();
+		}
+		if(a>7)
+		{
+			System.out.println("\n" + "Ders ortalamaları için lütfen 1 ve 7 arası sayı giriniz: "+"\n");
 			System.out.println("Matematik Not Hesaplaması için 1'e basınız.");
 			System.out.println("Algoritma Not Hesaplaması için 2'e basınız.");
 			System.out.println("İş Sağlığı ve Güvenliği Not Hesaplaması için 3'e basınız.");
